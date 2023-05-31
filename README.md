@@ -5,7 +5,7 @@ production-ready PyQt projects quickly.
 
 ## Features
 
--   For PyQt
+-   For PyQt 6
 -   Works with Python 3.10
 
 ## Optional Integrations
