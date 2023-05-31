@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "{{cookiecutter.project_slug}}"
+version = "0.1.0"
+description = "{{cookiecutter.description}}"
+authors = ["{{cookiecutter.author}} <{{cookiecutter.email}}>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pyqt6 = "6.5.0"
+flake8 = "6.0.0"
+flake8-isort = "6.0.0"
+pylint = "2.17.4"
+{% if cookiecutter.pyinstaller == 'n' -%}
+pyinstaller = "5.11.0"
+{% endif -%}
+pyqt6rc = "0.5.2"
+pyside6 = "6.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
