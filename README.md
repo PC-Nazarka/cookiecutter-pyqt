@@ -25,21 +25,19 @@ pip install "cookiecutter>=1.7.0"
 Now run it for generate project with this template:
 
 ```bash
-cookiecutter https://github.com/AsakoKabe/fastapi-template/tree/cookiecutter
+cookiecutter https://github.com/PC-Nazarka/cookiecutter-pyqt
 ```
 
 You'll be prompted for some values. Provide them, then a FastAPI project will be created for you.
 
 Answer the prompts with your own desired options. For example:
 
-    Cloning into 'fastapi-template...
-    project_name [My project]:
-    project_slug [my_project]:
-    author_name [ZZaRRyaDD]:
-    email [example@gmail.com]:
-    description [My new FastAPI project]: 
-    port [8000]: 
-    user [n]:
+    project_name [My project]: 
+    project_slug [my_project]: 
+    author [ZZaRRyaDD]: 
+    email [example@gmail.com]: 
+    description [My new PyQt project]: 
+    pyinstaller [n]: y
 
 
 Now take a look at your repo.
